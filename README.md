@@ -1,4 +1,6 @@
-# Vue集成animate.css、wow.js和move.js
+# Vue集成animate.css、wow.js和move.js 
+
+[预览地址](https://gitsifu.github.io/animate-vue)
 
 参考资料（GitHub链接）
 
