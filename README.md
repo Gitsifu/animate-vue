@@ -17,7 +17,9 @@
 >
 >在使用animate.css的时候通常都会搭配wow.js
 
-同时wow.js在某些情况下可以配合move.js做更多的效果
+同时wow.js在某些情况下可以配合move.js做更多的效果。
+
+**注意**：animate.css版本3.x和4.x有区别，4.x的所有类名需要加上`animate__`的前缀，而3.x不需要。具体详见[animate.css官网](https://animate.style/)
 
 ## 下载依赖
 ```
