@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 class="center wow animate__backInRight">Animate.js & Vue.js</h1>
-        <h2 class="center">move.js</h2>
+        <h2 class="center" v-animated="'animate__wobble'">v-animated实现</h2>
         <div class="square"></div>
         <button @click="doPlay">play</button>
     </div>

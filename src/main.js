@@ -3,22 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import 'animate.css'
-import { WOW } from "wowjs";
+import Animated from 'v-animated'
 
-
+Vue.use(Animated)
 Vue.config.productionTip = false
 
 new Vue({
   router,
   store,
-  render: h => h(App),
-  mounted() {
-    new WOW({
-      boxClass:     'wow',      // default
-      animateClass: 'animate__animated', // default
-      offset:       0,          // default
-      mobile:       true,       // default
-      live:         true        // default
-    }).init()
-  }
+  render: h => h(App)
 }).$mount('#app')
